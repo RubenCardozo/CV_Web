@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    background: #e2c08e;
+}
+
+h1, h2, h3{
+    margin: auto;
+}
+
+header{
+    width: 100%;
+    height: 45px;
+    box-shadow: 1px 1px 5px #000000;
+    position: fixed;
+    background-color: #dddada;
+}
+.logo{
+    display: inline;
+    color: #1919e0;
+    font: bold 20px "Verdana", sans-serif;
+    margin: 5%;
+    padding: 10%;
+}
+
+.menu{
+    margin: auto;
+
+}
+
+.menu, .menu ul li{
+    display: block;
+    color: #000000;
+    text-decoration: none;
+    font: 12px Verdana;
+    padding: 1px;
+}
+
+ul a {
+    display:block;
+    float: right; 
+}
+
+.menu a{
+    color: #000000;
+    display: block;
+    text-decoration: none;
+}
+
+.menu ul a:hover{
+    color: #faf9f9;
+    font: bold;
+    background-color: #c0b3b3;
+    text-decoration: none;
+}
+
+a{
+    padding: 5px;
+}
+
+.entete{
+    margin: auto;
+    color: white;
+    background-color: #008080;
+    background-size: 70%;
+    width: 100%;
+    padding: 60px 40% 10px 20%;
+}
+
+
+.myImg{
+    margin: auto;
+    width: 30%;
+}
+
+.container, footer {
+    margin: auto;
+    padding: 10;
+    width: 70%;
+    border-radius: 5px;
+    background: white;
+}
+
+.bar_Progress{
+    width: 45%;
+    background: #d0ecf0;
+    border: white 1px;
+}
+
+.bar_Progress_Html{
+    width: 80%;
+    background: #8fdae4;
+    border: #7a8ae6 2px;
+}
+.bar_Progress_CSS{
+    width: 70%;
+    background: #8fdae4;
+    border: #7a8ae6 2px;
+}
+
+.bar_Progress_JS{
+    width: 65%;
+    background: #8fdae4;
+    border: #7a8ae6 2px;
+}
+
+.container + .connaissance-left{
+    margin: auto;
+    border-radius: 5px;
+    background: white;
+    float: left;
+}
+
+.container + .connaissance-right{
+    margin: auto;
+    border-radius: 5px;
+    background: white;
+    float: right;
+}
